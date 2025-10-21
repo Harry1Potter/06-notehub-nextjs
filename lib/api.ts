@@ -23,7 +23,7 @@ export const fetchNotes = async (
     headers: getAuthHeader(),
     params: { search, page, perPage },
   });
-  console.log("Auth header:", getAuthHeader());
+  console.log("NOTEHUB TOKEN:", process.env.NEXT_PUBLIC_NOTEHUB_TOKEN);
   return res.data;
 };
 
