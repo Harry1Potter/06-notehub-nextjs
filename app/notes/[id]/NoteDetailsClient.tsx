@@ -2,7 +2,7 @@
 
 import { useQuery } from "@tanstack/react-query";
 import { fetchNoteById } from "@/lib/api";
-import type { Note } from "@/lib/types/types";
+import type { Note } from "@/types/types";
 
 export default function NoteDetailsClient({ noteId }: { noteId: string }) {
   const {

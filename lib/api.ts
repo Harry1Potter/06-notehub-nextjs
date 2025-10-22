@@ -1,5 +1,5 @@
 import axios from "axios";
-import type { NewNoteData, Note } from "./types/types";
+import type { NewNoteData, Note } from "../types/types";
 
 axios.defaults.baseURL = "https://notehub-public.goit.study/api";
 
