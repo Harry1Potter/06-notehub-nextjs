@@ -7,7 +7,7 @@ import { fetchNotes } from "@/lib/api";
 import type { Note } from "@/types/types";
 import SearchBox from "@/components/SearchBox/SearchBox";
 import Pagination from "@/components/Pagination/Pagination";
-import NotesList from "@/components/NotesList/NotesList";
+import NotesList from "@/components/NoteList/NoteList";
 import Modal from "@/components/Modal/Modal";
 import NoteForm from "@/components/NoteForm/NoteForm";
 
