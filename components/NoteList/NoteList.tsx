@@ -4,11 +4,11 @@ import css from "./NoteList.module.css";
 import { deleteNote } from "@/lib/api";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 
-interface Props {
+interface NoteListProps {
   notes: Note[];
 }
 
-export default function NotesList({ notes }: Props) {
+export default function NoteList({ notes }: NoteListProps) {
   const queryClient = useQueryClient();
 
   const { mutate: deleteMutate, } = useMutation({
